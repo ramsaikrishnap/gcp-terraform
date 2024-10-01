@@ -1,0 +1,11 @@
+project_id            = "your-project-id"
+subnet_name           = "your-subnet-name"
+zone                  = "your-preferred-zone"
+compute_image_name    = "your-image-name"
+compute_instance_name = "your-instance-name"
+machine_type          = "e2-medium"
+root_disk_type        = "pd-ssd"
+root_disk_size        = 50
+additional_disks      = [100, 200]  # Size in GB
+additional_disk_type  = "ssd"
+kms_key_self_link     = "your-kms-key-self-link"
